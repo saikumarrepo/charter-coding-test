@@ -1,0 +1,89 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.table-container {
+  margin: auto;
+}
+
+.table-container tr {
+  margin-top: 10px;
+  background: #e0e0e0;
+}
+
+.table-container td,
+th {
+  padding: 15px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.navbar {
+  background: blue;
+  color: #fff;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.search-form {
+  padding: 20px;
+  text-align: center;
+}
+
+.search-form input {
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+.sbutton {
+  padding: 10px 16px;
+  width: auto;
+  background: darkblue;
+  color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.current-page {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+ul.pagination {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+ul.pagination li.page-item {
+  list-style: none;
+  display: inline-block;
+}
+ul.pagination li.page-item.active a.page-link {
+  color: #445565 !important;
+  background-color: #e3e7eb !important;
+  border-color: #ced4da !important;
+}
+ul.pagination a.page-link {
+  padding: 0.75rem 1rem;
+  min-width: 3.5rem;
+  text-align: center;
+  box-shadow: none !important;
+  border-color: #ced4da !important;
+  color: #6b88a4;
+  font-weight: 900;
+  font-size: 1rem;
+}
+ul.pagination a.page-link:hover {
+  background-color: #f4f4f4;
+}
