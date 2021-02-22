@@ -1,4 +1,4 @@
-# Frontend Coding assignment
+# Charter Coding assignment
 
 ## Setup
 
